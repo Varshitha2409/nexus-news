@@ -5,3 +5,4 @@ from langgraph.graph import StateGraph, END
 from langchain_ollama import ChatOllama
 class AgentState(TypedDict):
     messages:Annotated[List[BaseMessage],operator.add]
+    
