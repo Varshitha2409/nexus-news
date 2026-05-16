@@ -22,3 +22,4 @@ distances,indices=index.search(q_emb, k=2)
 
 for i,idx in enumerate(indices[0]):
     print(f"Result {i+1}: {docs[idx]} (score: {distances[0][i]:.2f})")
+    
